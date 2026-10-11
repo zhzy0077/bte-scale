@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Private inputs, diagnostic captures, and generated analysis
+/config/*
+!/config/profile.example.json
+/captures/
+/logs/
+/analysis/
+/apk/
+/tools/
+*.btsnoop
+*.pcap
+*.pcapng
+*.apk
+*.dex
+*.so
+.env
+.env.*
